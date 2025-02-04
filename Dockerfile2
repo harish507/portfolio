@@ -1,0 +1,22 @@
+FROM node:14-alpine
+
+# Set working directory
+WORKDIR /app
+
+# Copy package.json and package-lock.json
+COPY package*.json ./
+
+# Install dependencies with legacy peer deps flag
+RUN npm install --legacy-peer-deps
+
+# Copy the rest of the application files
+COPY . .
+
+# Build the application (if it's a React or Next.js app)
+RUN npm run build
+
+# Expose port (change if necessary)
+EXPOSE 4200
+
+# Command to start the app (adjust as needed)
+CMD ["npm", "start"]
