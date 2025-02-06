@@ -12,19 +12,22 @@ export class ContactComponent {
   constructor(private http: HttpClient) {}
 
   onSubmit(form: any) {
-    console.log('Form data:', this.model);  // Check the data you're sending
+    console.log('Form data:', this.model);  // Log form data for debugging
 
     if (form.valid) {
       this.http.post('http://52.90.136.12:3000/send-email', this.model).subscribe(
         response => {
+          console.log('Email sent successfully:', response);  // Log successful response
           alert('Email sent successfully!');
-          form.resetForm();  // Reset the form after submission
+          form.resetForm();  // Reset form after submission
         },
         error => {
           console.error('Error sending email:', error);  // Log error for debugging
           alert('Error sending email. Please try again later.');
         }
       );
+    } else {
+      console.error('Form is invalid', form);  // Log invalid form submission attempt
     }
   }
 }
