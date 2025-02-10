@@ -15,7 +15,7 @@ export class ContactComponent {
     console.log('Form data:', this.model);  // Log form data for debugging
 
     if (form.valid) {
-      this.http.post('http://52.90.136.12:3000/send-email', this.model).subscribe(
+      this.http.post('https://mail.devvopsslabs.fun/send-email', this.model).subscribe(
         response => {
           console.log('Email sent successfully:', response);  // Log successful response
           alert('Email sent successfully!');
