@@ -235,31 +235,36 @@ export class ProfileService {
     },
     {
       'id': '8',
+      'skill': 'Helm Charts',
+      'progress': '60%'
+    },
+    {
+      'id': '9',
       'skill': 'Linux',
       'progress': '70%'
     },
     {
-      'id': '9',
+      'id': '10',
       'skill': 'AWS Cloud Services',
       'progress': '70%'
     },
     {
-      'id': '10',
+      'id': '11',
       'skill': 'Azure Clouds Serivces',
       'progress': '60%'
     },
     {
-      'id': '11',
+      'id': '12',
       'skill': 'IBM & GCP Clouds Serivces',
       'progress': '60%'
     },
     {
-      'id': '12',
+      'id': '13',
       'skill': 'yaml, and Groovy',
       'progress': '70%'
     },
     {
-      'id': '13',
+      'id': '14',
       'skill': ' MYSQL, MONGO',
       'progress': '50%'
     },
