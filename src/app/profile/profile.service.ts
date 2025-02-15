@@ -181,7 +181,7 @@ export class ProfileService {
     // },
 
   ]
-  about2 = `Devops Engineer with 5+ years of experience .
+  about2 = `Devops Engineer with 5.9 years of experience .
   Worked with Software Development Life Cycle(SDLC) and  agile methodologies .
   Expertise in Configuring CI/CD Pipelines AZ Devops and Jenkins .
   Expertise in Containerization Platforms Docker & Kubernetes  . 
@@ -308,7 +308,7 @@ Completed my Secondary school with 84%.`
       id: 1,
       company: 'RWS Moravia Ind Pvt LTD',
       location: 'Indore, India',
-      timeline: 'OCT 2022 to Present',
+      timeline: 'Aug 29 2022 to Present',
       role: 'Devops Engineer',
       work: 'Working as a Devops Engineer .Responsible for handling and Managing the CI/CD work and Enhance CI/CD Pipelines. Montoring and Maintaining Vpshere Vms    .Creating Snapshot of Vsphere VMs for backup and patching of deployments   .Coordinating with team members on various tasks as per the requirement    .	Responsible for server management and maintenance to provide quality dev/testing environments for team.',
 
@@ -317,7 +317,7 @@ Completed my Secondary school with 84%.`
       id: 2,
       company: 'Miracle Software Systems Ind Pvt LTD',
       location: 'Visakhapatnam, India',
-      timeline: 'JUN 2019 to OCT 2022',
+      timeline: 'JUN 12 2019 to Aug 26 2022',
       role: 'Devops Engineer',
       work: ' Strong management and administration skills in providing installation, configuration, troubleshooting, backup and recovery in multiple Applications and Web Servers . Deploying applications using Ansible playbooks. Automating the environment in Azure DevOps .Containerizing applications using docker . Build and push Docker images into the docker hub . Applying various Kubernetes services like Configure pods and containers, Manage Kubernetes Objects, Mange Secrets, Inject Data into applications, run applications, Monitoring, Logging, Debugging, Access Applications in Cluster, configuring volumes and Implement Domain Name Services . Automating Deployments, Services, and scaling of Containers for Walmart applications ● Worked in performance testing and troubleshooting various issues, Performed routine Management of application server environment like monitoring disk space, CPU utilization . CI/CD (Continuous Integration / Continuous Deployment) Pipeline creation in multiple environments (Azure DevOps, Jenkins) . Working with multiple Cloud Services for applying Kubernetes Services and  Coordination with team members to work on multiple implementations as per the requirement in the project.',
 
